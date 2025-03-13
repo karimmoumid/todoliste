@@ -1,15 +1,17 @@
-header{
+header {
     position: relative;
     background-color: $primary;
-    height:142px ;
+    height: 142px;
     ;
-    h2{
+
+    h2 {
         font-size: 3rem;
         padding-block: 48px;
-color: $light;
-text-align: center;
+        color: $light;
+        text-align: center;
     }
-    img{
+
+    img {
         position: absolute;
         top: 0;
         left: 0;
@@ -18,11 +20,13 @@ text-align: center;
         z-index: -1;
     }
 }
-main{
-    padding-inline:26px ;
+
+main {
+    padding-inline: 26px;
     background-color: rgba(224, 223, 223, 1);
 }
-button{
+
+button {
     font-size: 3rem;
     padding-inline: 15px;
     padding-block: 10px;
