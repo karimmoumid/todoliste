@@ -1,0 +1,38 @@
+main {
+    padding-bottom: 22px;
+
+    img {
+        display: flex;
+        justify-self: center;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            font-size: 3rem;
+            align-content: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: $light;
+        }
+    }
+
+    ul {
+        margin-top: 22px;
+        height: 289px;
+        background-color: $light;
+        border-radius: 15px;
+        overflow: auto;
+        li {
+            padding-inline: 10px;
+            padding-block: 20px;
+            list-style-type: none;
+            display: flex;
+            gap: 10px;
+        }
+    }
+}
